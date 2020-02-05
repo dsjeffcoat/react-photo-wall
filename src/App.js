@@ -28,12 +28,6 @@ class App extends Component {
       });
   }
 
-  generatePhoto() {
-    this.setState({
-      photos: []
-    });
-  }
-
   render() {
     // const { photos = [] } = this.state;
     return (
