@@ -28,16 +28,18 @@ header {
 
 .collage {
   background-color: #282c34;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* flex-wrap: wrap; */
   margin: auto;
   /* margin-right: auto; */
   padding: 10px;
   width: 50%;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 img {
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
